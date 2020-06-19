@@ -1,3 +1,7 @@
-html {
-background-color: red;
+.main-header {
+  background-color: rgba(0,0,0,.8)
+  background-image: url("mario world.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 30px;
 }
