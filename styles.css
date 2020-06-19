@@ -2,13 +2,23 @@
 {
   box-sizing: border-box;
   font-family: Raleway;
+  color: #888;
 }
 html,body{
   margin: 0;
   padding : 0;
 }
-nav ul {
+.nav ul {
   magin:0;
+}
+.nav li{
+display: inline;
+}
+
+.nav a {
+ padding: .5em;
+  color: white;
+  text-decoration: none;
 }
 .main-header {
   background-color: rgba(0,0,0,.8)
