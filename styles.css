@@ -1,3 +1,10 @@
+html,body{
+  margin: 0;
+  padding : 0;
+}
+nav ul {
+  magin:0;
+}
 .main-header {
   background-color: rgba(0,0,0,.8)
   background-image: url("mario world.jpg");
