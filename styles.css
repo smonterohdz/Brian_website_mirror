@@ -1,7 +1,9 @@
 
 @font-face{
 font-family: "fancy-font";
-  src: url("victoria_melody.zip")
+  src: url("victoria_melody.zip");
+  font-weight: normal;
+  font-stle: normal;
 }
 * {	
   box-sizing: border-box;	
@@ -50,4 +52,5 @@ text-align: center;
 margin: 0;
 fontsize: 4em;
 fontfamily: "fancy-font";
+  font-weight: normal;
 }
