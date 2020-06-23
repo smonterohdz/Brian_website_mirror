@@ -71,3 +71,8 @@ float: left;
   margin: 15px;
   border-radius: 50%;
 }
+.main-footer{
+background-color: #56CCF2;
+  color: white;
+  padding: .25em 0;
+}
