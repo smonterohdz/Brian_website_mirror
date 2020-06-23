@@ -1,13 +1,6 @@
 
-@font-face{
-font-family: "fancy-font";
-  src: url("Victoria_Melody.ttf");
-  font-weight: normal;
-  font-stle: normal;
-}
 * {	
   box-sizing: border-box;	
-  font-family: Raleway;	
   color: #888;	
 }	
 html,body{	
@@ -51,7 +44,6 @@ title-header {
 text-align: center;
 margin: 0;
 fontsize: 7em;
-fontfamily: "fancy-font";
   font-weight: normal;
   color: white;
 }
@@ -62,4 +54,11 @@ margin: 1em;
 .container{
 max-width: 900px;
 margin : 0 auto;
+  padding:0 1.5em;
+}
+
+.section-header {
+font-weight: normal;
+  color: #333;
+  text-align: center;
 }
