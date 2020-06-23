@@ -53,4 +53,8 @@ margin: 0;
 fontsize: 4em;
 fontfamily: "fancy-font";
   font-weight: normal;
+  color: white;
+}
+title-header-large {
+font-size: 7em;
 }
