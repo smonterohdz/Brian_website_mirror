@@ -1,4 +1,12 @@
 @import url ('https://fonts.googleapis.com/css?family=Raleway:300,400')	html { background-color : red; }
+.main-header {	
+  background-color: rgba(0,0,0,.8);
+  background-image: url("marioworld.jpg");	
+  background-blend-mode: multiply;	
+  background-size: cover;	
+  padding-bottom: 30px;	
+}
+
 {	
   box-sizing: border-box;	
   font-family: Raleway;	
@@ -20,10 +28,4 @@ display: inline;
   color: white;	
   text-decoration: none;	
 }	
-.main-header {	
-  background-color: rgba(0,0,0,.8)	
-  background-image: url("marioworld.jpg");	
-  background-blend-mode: multiply;	
-  background-size: cover;	
-  padding-bottom: 30px;	
-}
+
