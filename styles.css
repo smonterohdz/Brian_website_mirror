@@ -1,7 +1,7 @@
 
 @font-face{
 font-family: "fancy-font";
-  src: url("victoria_melody.zip");
+  src: url("Victoria_Melody.ttf");
   font-weight: normal;
   font-stle: normal;
 }
@@ -50,11 +50,8 @@ background-color: rgba(255,255,255,.3);
 title-header {
 text-align: center;
 margin: 0;
-fontsize: 4em;
+fontsize: 7em;
 fontfamily: "fancy-font";
   font-weight: normal;
   color: white;
-}
-title-header-large {
-font-size: 7em;
 }
