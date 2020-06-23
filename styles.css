@@ -68,4 +68,6 @@ font-weight: normal;
 float: left;
   height: 200px;
   width: 200px;
+  margin: 15px;
+  border-radius: 50%;
 }
