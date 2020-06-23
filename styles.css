@@ -1,4 +1,8 @@
 
+@font-face{
+font-family: "fancy-font";
+  src: url("victoria_melody.zip")
+}
 * {	
   box-sizing: border-box;	
   font-family: Raleway;	
@@ -45,5 +49,5 @@ title-header {
 text-align: center;
 margin: 0;
 fontsize: 4em;
-fontfamily: "victoria_melody.zip";
+fontfamily: "fancy-font";
 }
