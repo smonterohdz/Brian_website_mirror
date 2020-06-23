@@ -39,7 +39,7 @@ background-color: rgba(255,255,255,.3);
 }
 .main-header {	
   background-color: rgba(0,0,0,.8);
-  background-image: url("marioworld.jpg");	
+  background-image: url("mario world.jpg");	
   background-blend-mode: multiply;	
   background-size: cover;	
   padding-bottom: 30px;	
