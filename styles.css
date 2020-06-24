@@ -40,12 +40,15 @@ background-color: rgba(255,255,255,.3);
   padding-bottom: 30px;	
 }
 
-.title-header {
+.band-name {
 text-align: center;
 margin: 0;
-fontsize: 7em;
+fontsize: 4em;
   font-weight: normal;
   color: white;
+}
+.band-name-large {
+7em;
 }
 .content-section {
 margin: 1em;
