@@ -1,32 +1,27 @@
 .container {
-max-width : 100%;
-margin: 0 auto;
-background: #f9f9f9;
-font-size: 24px;
-padding: 25px;
+    max-width : 100%;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    padding: 25px;
 }
 
-.parallax{
-background: url("mariosleep.jfif") no-repeat center;
-background-size: cover;
-background-attachment: fixed;
-height: 500px;
+.parallax {
+    background: url("images/mariosleep.jfif") center;
 }
-.parallax1{
-background: url("download (2).jpg") no-repeat center;
-background-size: cover;
-background-attachment: fixed;
-height: 500px;
+.parallax1 {
+    background: url("images/download (2).jpg") center;
 }
-.parallax2{
-background: url("download (1).jpg") no-repeat center;
-background-size: cover;
-background-attachment: fixed;
-height: 500px;
+.parallax2 {
+    background: url("images/download (1).jpg") center;
 }
-.parallax3{
-background: url("images (1).jpg") no-repeat center;
-background-size: cover;
-background-attachment: fixed;
-height: 500px;
+.parallax3 {
+    background: url("images/images (1).jpg") center;
+}
+
+/* shared attributes among parallax to make code shorter */
+.parallax, .parallax1, .parallax2, .parallax3 {
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
 }
