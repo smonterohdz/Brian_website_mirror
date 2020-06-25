@@ -1,43 +1,50 @@
 
 * {	
-  box-sizing: border-box;	
-  color: #888;	
+  box-sizing: border-box;		
 }	
 html,body{	
   margin: 0;	
   padding : 0;	
 }	
 .nav ul {	
-  magin:0;	
+  margin:0;	
 }	
-.nav li{	
-display: inline;	
+.nav li {	
+  display: inline;	
+  padding: 5%;
 }	
 
+@font-face { 
+  font-family: Victoria_Melody; 
+  src: url('Victoria_Melody.ttf'); 
+} 
 .nav a {	
-  display: inline;
- padding: .5em;	
+  padding: .5em;	
   color: white;	
-  text-decoration: none;	
+  font-size: 30px;
+  font-family: Victoria_Melody;	
+  font-weight: lighter;
 }	
-.main-nav li {
-  padding: 0 5%;
-}
-.main-nav {
-font-size : 1.1em;
-text-align: center;
-font-weight: lighter;
-border-bottom: 1px solid rgba(255,255,255,.3);
-}
+
 .nav a:hover {
 background-color: rgba(255,255,255,.3);
 }
+
 .main-header {	
   background-color: rgba(0,0,0,.8);
-  background-image: url("mario world.jpg");	
+  background-image: url("images/mario world.jpg");	
   background-blend-mode: multiply;	
   background-size: cover;	
   padding-bottom: 30px;	
+  text-align: center;
+}
+
+
+.title-header {
+  margin: 0;
+  font-size: 7em;
+  font-weight: normal;
+  color: white;
 }
 
 .band-name {
@@ -52,48 +59,46 @@ fontsize: 4em;
 }
 .content-section {
 margin: 1em;
-
 }
+
 .container{
-max-width: 900px;
-margin : 0 auto;
-  padding:0 1.5em;
+  max-width: 900px;
+  padding: 1.5em;
+  color:#888
 }
 
 .section-header {
-font-weight: normal;
+  font-weight: normal;
   color: #333;
   text-align: center;
   font-size: 2.5em;
+  margin:0;
 }
 
-.about-image{
-float: left;
-  height: 200px;
-  width: 200px;
-  margin: 15px;
-  border-radius: 50%;
-}
 .main-footer{
-background-color: #56CCF2;
-  color: white;
-  padding: .25em 0;
+  background-color: #56CCF2;
+  color: #888;
+  padding: 20px;
+  font-family: Victoria_Melody;	
+  font-size: 50px;
 }
 
 .main-footer-container {
-display: flex;
+  display: flex;
   align-items:center;
 }
 
 .main-footer-container ul {
-flex-grow: 1;
+  flex-grow: 1;
   text-align: end;
 }
 
 .footer-nav li {
-padding:0 .5em;
+  display: inline;
+  padding:.5em;
+  margin:10px; 
 }
 .footer-nav img{
-width: 30px;
-  height 30px;
+  width: 50px;
+  height: 50px;
 }
