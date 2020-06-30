@@ -19,6 +19,7 @@ html,body{
   src: url('Victoria_Melody.ttf'); 
 } 
 .nav a {	
+  position : fixed;
   padding: .5em;	
   color: white;	
   font-size: 30px;
