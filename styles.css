@@ -1,8 +1,8 @@
-
-* {	
-  box-sizing: border-box;		
-}	
-html,body{	
+/*asdfasdf*/
+* {
+  box-sizing: border-box;
+}
+html,body{
   margin: 0;	
   padding : 0;	
 }	
@@ -42,7 +42,6 @@ background-color: rgba(255,255,255,.3);
 
 
 .title-header {
-  position : sticky;
   top: 0;
   margin: 0;
   font-size: 7em;
@@ -58,7 +57,7 @@ fontsize: 4em;
   color: white;
 }
 .band-name-large {
-7em;
+font-size : 7em;
 }
 .content-section {
 margin: 1em;
